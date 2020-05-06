@@ -112,21 +112,21 @@ class Index extends React.Component {
               contents={[
                 {
                   content: (
-                    `Hack reconciles the fast development cycle of a dynamically typed language with the discipline provided by static typing, while adding many features commonly found in other modern programming languages.`
+                    `Hack 兼顾了动态语言的快速开发周期和静态语言的语法规则，同时加入了许多其他编程语言中常见的特性`
                   ),
-                  title: "Fast Development",
+                  title: "快速开发",
                 },
                 {
                   content: (
-                    `Hack provides instantaneous type checking by incrementally checking your files as you edit them. It typically runs in less than 200 milliseconds, making it easy to integrate into your development workflow without introducing a noticeable delay.`
+                    `Hack 在你编写代码的时候会检查你的代码文件并提供即时类型检查，并且它通常在 200 毫秒内即可完成，不会有很明显的延迟，因此你可以很轻松地集成到你的开发流程中去`
                   ),
-                  title: "Type Checking",
+                  title: "类型检查",
                 },
                 {
                   content: (
-                    `Hack is built specifically for [HHVM](http://hhvm.com), a high performance runtime for your Hack applications.`
+                    `Hack 专为 [HHVM](http://hhvm.com) 而生，HHVM 为你的 Hack 应用供一个高性能的运行时`
                   ),
-                  title: "Built for HHVM",
+                  title: "为 HHVM 而生",
                 }
               ]}
               layout="threeColumn"
@@ -144,11 +144,11 @@ class Index extends React.Component {
                 </div>
                 <div className="blockContent">
                   <h2>
-                    Type Annotations
+                    类型标注
                   </h2>
                   <div>
                     <MarkdownBlock>
-                      Type annotations allow for code to be explicitly typed on parameters, class member variables and return values.
+                      你可以显式地标注参数、类成员属性和返回值的类型
                     </MarkdownBlock>
                   </div>
                 </div>
@@ -160,11 +160,11 @@ class Index extends React.Component {
               <div className="blockElement imageAlignSide twoByGridBlock">
                 <div className="blockContent">
                   <h2>
-                    Generics
+                    泛型
                   </h2>
                   <div>
                     <MarkdownBlock>
-                      Generics allow classes and methods to be parameterized (i.e., a type associated when a class is instantiated or a method is called) in the same vein as statically typed languages like C# and Java).
+                      泛型允许对类和方法进行参数化（即在实例化类或调用方法时指定类型），其使用方式与 C＃ 和 Java 之类的静态类语言相同。
                     </MarkdownBlock>
                   </div>
                 </div>
@@ -190,11 +190,11 @@ class Index extends React.Component {
                 </div>
                 <div className="blockContent">
                   <h2>
-                    Lambdas
+                    Lambda 表达式
                   </h2>
                   <div>
                     <MarkdownBlock>
-                      Lambdas succinctly allow definition of first-class functions.
+                    使用 Lambda 表达式可以很简洁地定义一个头等函数
                     </MarkdownBlock>
                   </div>
                 </div>

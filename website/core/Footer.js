@@ -51,7 +51,7 @@ class Footer extends React.Component {
             </a>
           )}
           <a href={`https://github.com/${this.props.config.organizationName}/${this.props.config.projectName}`} target="_blank">
-            Contribute to this website
+            帮助我们翻译
           </a>
         </section>
 

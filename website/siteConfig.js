@@ -10,17 +10,17 @@
 
 const siteConfig = {
   title: "Hack" /* title for your website */,
-  tagline: "Programming Productivity Without Breaking Things",
-  url: "https://hacklang.org" /* your website url */,
+  tagline: "高效开发，永不翻车",
+  url: "https://hacklang-cn.org" /* your website url */,
   baseUrl: "/" /* base url for your project */,
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
-  projectName: "hacklang.org",
-  organizationName: "hhvm",
-  cname: "hacklang.org",
+  projectName: "hacklang-cn.org",
+  organizationName: "hhvm-cn",
+  cname: "hacklang-cn.org",
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
@@ -29,11 +29,11 @@ const siteConfig = {
   headerLinks: [
     {
       href: "http://docs.hhvm.com/hack/getting-started/getting-started",
-      label: "Install"
+      label: "安装"
     },
     {
       href: "http://docs.hhvm.com/hack/",
-      label: "Docs"
+      label: "文档"
     },
     {
       href: "https://github.com/facebook/hhvm/tree/master/hphp/hack",

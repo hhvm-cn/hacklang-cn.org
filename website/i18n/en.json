@@ -3,11 +3,11 @@
   "localized-strings": {
     "next": "Next",
     "previous": "Previous",
-    "tagline": "Programming Productivity Without Breaking Things",
+    "tagline": "高效开发，永不翻车",
     "docs": {},
     "links": {
-      "Install": "Install",
-      "Docs": "Docs",
+      "安装": "安装",
+      "文档": "文档",
       "GitHub": "GitHub",
       "Twitter": "Twitter",
       "HHVM": "HHVM",
